@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 20px;
   color: #333333;
   background:url(../images/bg.jpg) repeat;
@@ -11,7 +11,7 @@ body {
 
 .Contenedor_Principal{
 	width: 100%;
-	height: 75%;
+	height: 100%;
 }
 
 
@@ -36,14 +36,14 @@ body {
 .contenedor_superior{
 	padding:1%;
 	width:96%;
-	height:39%;
+	height:35%;
 	background-size: contain;
 }
 
 .menu_container{
 	width:25%;
-	height:100%;
-	background:red;
+	height:50%;
+	/*background:red;*/
 	float:left;
 }
 
@@ -53,15 +53,16 @@ body {
 	height:25%;
 	line-height:2.5em;
 	text-align:center;
-	font-size:1.5em;
+	text-decoration: underline;
+	font-size:12px;
 	background:#42429a;
 	border-bottom:solid 2px #edef00;
 	cursor:pointer;
 	color:#fff;
-        box-sizing:border-box;
-        -moz-box-sizing:border-box; /* Firefox */
+    box-sizing:border-box;
+    -moz-box-sizing:border-box; /* Firefox */
 	-webkit-box-sizing:border-box;
-        transition:all ease 1s;
+    transition:all ease 1s;
 	-moz-transition:all ease 1s;
 	-webkit-transition:all ease 1s;
 }
@@ -102,9 +103,9 @@ body {
 
 .contenedor_banner{
 	width:100%;
-	height:50%;
-	position:relative;
-	z-index:1;
+	height:30%;
+	position:absolute;
+	/*z-index:1;*/
 }
 
 .footer {
